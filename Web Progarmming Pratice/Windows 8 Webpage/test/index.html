@@ -1,0 +1,66 @@
+
+<html>
+	<head>
+		<title>A title</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="jquery-1.8.3.js" type="text/javascript"></script>
+		
+		<script>
+			$(document).ready(function(){
+				$i = 1;
+				$('#navigation1').mouseover(function() {
+					$('#navigation1').animate({
+						left: '+=20'
+					});
+				});
+				$('#navigation1').mouseout(function() {
+					$('#navigation1').animate({
+	                    left: '-=20'
+					});
+				});
+				$('#navigation2').click(function() {
+					$('#navigation2').animate({
+						left: '+=20'
+					});
+				});
+				$('#navigation3').click(function() {
+					$('#navigation3').animate({
+						left: '+=20'
+					});
+				});
+				$('#navigation4').click(function() {
+					$('#navigation4').animate({
+						left: '+=20'
+					});
+				});
+				
+				$('.yellowDiv').mousedown(function() {
+					$('.yellowDiv').animate({
+						height:390,
+						width:390
+					});
+				});
+				$('.yellowDiv').mouseup(function() {
+					$('.yellowDiv').animate({
+						height:400,
+						width:400
+					});
+				});
+			});
+		</script>
+		
+	</head>
+	<body>
+		<div class="yellowDiv">
+			lorem ipsum dolor ametj 
+			<br />fjdsa;lkfdjsa;lfjds;lajfd;lsajf;ldskaj;flajs
+			<br />fjdsa;lkfdjsa;lfjds;lajfd;lsajf;ldskaj;flajs
+			<br />fjdsa;lkfdjsa;lfjds;lajfd;lsajf;ldskaj;flajs
+		</div>
+		<div id="navigation1">Home</div>
+		<div id="navigation2" style="margin-top:30px;">Home</div>
+		<div id="navigation3" style="margin-top:60px;">Home</div>
+		<div id="navigation4" style="margin-top:90px;">Home</div>
+		
+	</body>
+</html>

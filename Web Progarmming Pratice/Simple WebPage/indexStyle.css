@@ -1,0 +1,44 @@
+.titleBar
+{
+	font-size:2em;
+}
+
+.navBar
+{
+	word-spacing: 12px;
+	font-size: .9em;
+	color:rgb(85,85,85);
+	font-family:verdana;
+	text-decoration: none;
+}
+#col1,#col2,#col3
+{
+	
+	width: 49%;
+	float: left;
+	margin: 0px;
+	
+}
+.title {
+
+    float: left;
+	height: 20px;
+	
+	
+}
+legend
+{
+	width: 100%;
+	background-color:#e0ffff;
+}
+h2
+{
+padding:0;
+margin:0; 
+}
+#scrollable
+{
+	height: 100px;
+	overflow-y:scroll;
+}
+white-space: nowrap;

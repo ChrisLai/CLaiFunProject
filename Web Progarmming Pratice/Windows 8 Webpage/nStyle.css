@@ -1,0 +1,50 @@
+#nav1 , #nav2, #nav3, #nav4
+{
+position:fixed;
+margin-left:-40px;
+background-color:black;
+width:100px;
+border-radius:10px;
+padding-left:40px;
+/*height:30px;*/
+color:white;
+/*margin-bottom:3px; */
+}
+
+#start {
+font-size:40px;
+color:white;
+}
+
+.vertLine {
+    width:1500px;
+}
+
+#box1, #box2, #box3, #box4 {
+    width:140px;
+    height:100px;
+    text-align:center;
+    border:groove;
+    background-color:white;
+    margin: 20px;
+    padding-top:30px;
+    float :left;
+}
+.boxes {
+    width:140px;
+    height:100px;
+    text-align:center;
+    border:groove;
+    background-color:white;
+    margin: 20px;
+    padding-top:30px;
+    float :left;
+}
+
+body
+{
+height:2000px;
+background-image:url('pic/GrayBackground.jpg');
+}
+
+/*overflow:auto;*/

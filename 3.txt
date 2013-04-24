@@ -1,1 +1,5 @@
-fkd
+cd C:/CLaiFunProject
+//make changes to necessary files
+git add * //readies all changed files within repository to be committed
+git commit -m "message here" //Saves files as they are and includes message as to what you changed
+git push //pushes the entire repository
