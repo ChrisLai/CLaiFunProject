@@ -1,27 +1,68 @@
-    $(document).ready(function(){
-      $('a#home').click(function(e) {
-        e.preventDefault();
-        $('div#educationContent').hide(); 
-		$('div#skillContent').hide();      
-        $('div#homeContent').fadeIn();         
+   $(document).ready(function(){
+      $('#home').click(function(e) {
+
+        $('#educationContent').fadeOut(); 
+		$('#skillContent').hide();      
+        $('#homeContent').fadeIn();
+		$('#experienceContent').hide();
+		$('#upcomingContent').hide();
+		$('#contactContent').hide();          
         return false;
       });
 
         
-      $('a#education').click(function(e) {
+      $('#education').click(function(e) {
         e.preventDefault();
-        $('div#educationContent').fadeIn(); 
-		$('div#skillContent').hide();      
-        $('div#homeContent').hide();
-		$('div#experienceContent').hide();         
+        $('#educationContent').fadeIn(); 
+		$('#skillContent').hide();      
+        $('#homeContent').hide();
+		$('#experienceContent').hide();
+		$('#upcomingContent').hide();
+		$('#contactContent').hide();          
         return false;  
       });   
 
-	      $('a#skill').click(function(e) {
+	  $('#skill').click(function(e) {
         e.preventDefault();
-        $('div#educationContent').hide(); 
-		$('div#skillContent').fadeIn();      
-        $('div#homeContent').hide();       
+        $('#educationContent').hide(); 
+		$('#skillContent').fadeIn();      
+        $('#homeContent').hide();
+		$('#experienceContent').hide();
+		$('#upcomingContent').hide();
+		$('#contactContent').hide();        
         return false;  
       }); 
+	  
+	  	$('#experience').click(function(e) {
+        e.preventDefault();
+        $('#educationContent').hide(); 
+		$('#skillContent').hide();      
+        $('#homeContent').hide();
+		$('#experienceContent').fadeIn();
+		$('#upcomingContent').hide();
+		$('#contactContent').hide();    
+        return false;  
+      }); 
+	  
+	  	$('#upcoming').click(function(e) {
+        e.preventDefault();
+        $('#educationContent').hide(); 
+		$('#skillContent').hide();      
+        $('#homeContent').hide();
+		$('#experienceContent').hide();
+		$('#upcomingContent').fadeIn();
+		$('#contactContent').hide();    
+        return false;  
+      });
+	  
+	  	$('#contact').click(function(e) {
+        e.preventDefault();
+        $('#educationContent').hide(); 
+		$('#skillContent').hide();      
+        $('#homeContent').hide();
+		$('#experienceContent').hide();
+		$('#upcomingContent').hide();
+		$('#contactContent').fadeIn();    
+        return false;  
+      });
     }); 

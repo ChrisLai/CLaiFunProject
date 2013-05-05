@@ -2,15 +2,13 @@
 
 <html>
 <head>
-<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
-
-<script src="indexScript.js"></script>
-
+<script src="http://code.jquery.com/jquery-2.0.0.js"></script>
 <link href="indexStyle.css" rel="stylesheet" type="text/css" />
+<script src="indexScript.js"></script>
+<title>Chris Lai Portfolio</title>
 </head>
 
 <body>
-
 <div id="top">
   <h1>Chris Lai</h1>
   <div id="nav">
@@ -19,31 +17,74 @@
       <li><a href="#" id="education">Education</a></li>
       <li><a href="#" id="skill">Skill</a></li>
       <li><a href="#" id="experience">Experience</a></li>
-      <li><a href="#">Upcoming</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#" id="upcoming">Upcoming</a></li>
+      <li><a href="#" id="contact">Contact</a></li>
     </ul>
   </div>
 </div>
-<div id="homeContent"> Welcome to my site! I go rawr rawr rawr LOL HARSHCAT </div>
+<div id="homeContent">
+  <h2>Home</h2>
+  Welcome to Chris Lai portfolio! </div>
 <div id="educationContent">
-  <h2>Education</h2>
-  <p>Bachelor of Science, Computer Science, expected graduation May 2016 <br>
-    Virginia Tech, Blacksburg, VA <br>
-    GPA:3.38/4.0</p>
+  <div class="left">
+    <h2>Education</h2>
+    <p>Bachelor of Science, Computer Science, expected graduation May 2016 <br>
+      Virginia Tech, Blacksburg, VA <br>
+      GPA:3.38/4.0</p>
+  </div>
+  <div class="right">
+    <h2> Objective</h2>
+    Wants to program anything! </div>
+  <div class="left" style="height:400px">
+    <h2>Courses</h2>
+    Software Design and Data Structure<br>
+    Intro to Programming in C++<br>
+    AP Computer Science (Java)<br>
+    Self-Taught Web Development(HTML, CSS, JavaScript)<br>
+  </div>
+  <div class="right" style="height:400px">
+    <h2>Projects</h2>
+    <h3>Online Portfolio</h3>
+    <ul>
+      <li>Formatted website layout with CSS</li>
+      <li>Scripted small animations with JavaScript</li>
+    </ul>
+    <h3>Maze Game</h3>
+    <ul>
+      <li> Solved the maze using stack structure</li>
+      <li> utilized the mode, view, and control structure</li>
+    </ul>
+    <h3>Minesweepers Game</h3>
+    <ul>
+      <li>Used Android GUI(Graphic User Interface) for buttons and screen</li>
+      <li>Created an enum list for representing each playing cell</li>
+    </ul>
+  </div>
+  <div class="left">
+    <h2>Honors</h2>
+    A's and B's Honor Roll, 2009-2012<br>
+    Track and Field Academic Excellence, 2010-2011<br>
+  </div>
+  <div class="right">
+    <h2> Activities</h2>
+    Freedom High School Math Honor Society, 2011-2012<br>
+    Freedom High School National Honor Society, 2011-2012<br>
+    Freedom High School Track and Field, 2009-2011<br>
+    Freedom High School Cross Country, 2008-2010<br>
+  </div>
 </div>
-<div id="skillContent" class="hidden">
+<div id="skillContent">
   <h2>Skill</h2>
+  <h3>Software</h3>
   <ul>
-    <h3>Software</h3>
     <li>Microsoft Office</li>
     <li>Adobe Photoshop</li>
     <li>Sony Vegas</li>
     <li>Adobe Dreamweaver</li>
   </ul>
   <br>
-  
-  <ul>
   <h3>Language</h3>
+  <ul>
     <li>Java</li>
     <li>C++</li>
     <li>HTML</li>
@@ -52,8 +93,60 @@
   </ul>
 </div>
 <div id="experienceContent">
-<h2>Experience</h2>
-IT Assitant
+  <div class="left" style="height:600px">
+    <h2>Experience</h2>
+    <h3>IT Assitant<br>
+      Virginia Tech Office of Undergraduate Admission, Blacksburg, VA September 2012 - present </h3>
+    <ul>
+      <li>Pushed out updates and security patches using Kaseya </li>
+      <li>Updated Windows and Mac manually</li>
+      <li>Repaired desktop and laptop by interchanging internal hardware</li>
+      <li>Advised co-worker with setup and troubleshooting</li>
+    </ul>
+    <h3>Freedom High School Programming Club, September 2011 - June 2012</h3>
+    <ul>
+      <li>Reviewed and assessed programing materials</li>
+      <li>Competed in ACM at UVA programming competition</li>
+      <li>Programing 12 programs within 3 hours</li>
+      <li>Became familiar with JavaScript and the history of binary</li>
+    </ul>
+    <h3>PEER, South Riding, VA, September 2011 - 2012 June</h3>
+    <ul>
+      <li>Created and edited videos for Bully Awareness Assembly using Sony Vegas</li>
+      <li>Engaged elementary school students with extra help in math</li>
+      <li>Developed various scenarioes to educate middle school students on drug awareness</li>
+    </ul>
+  </div>
+  <div class="right" style="height:600px">
+    <h2> Community Work</h2>
+    <h3>Volunteer, Loudoun County Library Volunteer, Ashburn, VA,  August 2010 - June 2011</h3>
+    <ul>
+      <li> Mainted clealiness and functionality of library</li>
+      <li> Provided customer sercice support for library staff</li>
+    </ul>
+    <h3>Volunteer, Mulch Sale Program, South Riding, VA, 2008-2011</h3>
+    <ul>
+      <li>Handled 30 bags of muclh for  customer delivery</li>
+      <li>Collborated with three team memebers for mulch delivery</li>
+      <li>Provided indidual funds for mulch sale benefit</li>
+    </ul>
+  </div>
 </div>
+<div id="upcomingContent">
+  <h2>To be implemented</h2>
+  <ul>
+    <li> Use image on skill page to show off skill</li>
+    <li> Use a slide for nav bar</li>
+    <li> Create a function on how text fade in base on position on nav bar</li>
+    <li>On contact page make it easier to e-mail</li>
+    <li>Photoshop a better home page and header</li>
+    <li>Format experience date to be bolder and clean</li>
+    <li></li>
+  </ul>
+</div>
+<div id="contactContent">
+  <h2> Contact </h2>
+  Phone: (571) 435-0913 <br>
+  E-Mail: ChrisLai@vt.edu </div>
 </body>
 </html>
