@@ -1,0 +1,44 @@
+body {
+	background-color: #303030;
+	font-family: verdana;
+
+}
+h1 {
+	color: white;
+	text-align: center;
+	margin: 5px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 40px;
+}
+h2{
+	color:#0099FF;
+}
+#nav {
+	text-align: center;
+}
+#nav ul {
+	list-style: none;
+	word-spacing: 30px;
+	margin: 0;
+	padding: 0;
+}
+#nav ul li {
+	display: inline;
+}
+a {
+	font-size: .9em;
+	color: white;
+	text-decoration: none;
+}
+#homeContent, #educationContent, #skillContent, #experienceContent, #experienceContent, #upcomingContent, #contactContent {
+	margin-top:20px;
+	color:#B8B8B8; 
+}
+#skill ul {
+	list-style: none;
+}
+.hidden{
+	display:none;
+}
+
+

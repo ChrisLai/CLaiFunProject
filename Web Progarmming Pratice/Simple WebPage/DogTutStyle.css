@@ -1,0 +1,37 @@
+
+h2 {
+    border-style: ridge ;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: red;
+}
+
+#top {
+display: block;
+    background-color: #ccc;
+    padding: 1em
+	
+	
+}
+
+#top h1 {
+    color: #ff0;
+}
+
+#top p {
+    color: red;
+    font-weight: bold;
+}
+#navigation
+{
+display: block;
+}
+
+li:before {
+    content: "POW! ";
+    background: red;
+    color: #fc0;
+}
+
+																																																																																																																	
