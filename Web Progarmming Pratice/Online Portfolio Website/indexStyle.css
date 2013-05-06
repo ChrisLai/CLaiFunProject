@@ -6,8 +6,9 @@ h1 {
 	color: white;
 	text-align: center;
 	margin: 5px;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
 	font-size: 40px;
+	font-weight:normal;
 }
 h2 {
 	color: #0099FF;
