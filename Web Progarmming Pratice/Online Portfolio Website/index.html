@@ -2,17 +2,18 @@
 
 <html>
 <head>
-<script src="http://code.jquery.com/jquery-2.0.0.js"></script>
 <link href="indexStyle.css" rel="stylesheet" type="text/css" />
+<script src="http://code.jquery.com/jquery-2.0.0.js"></script>
+<script src="slideScript.js"></script>
 <script src="indexScript.js"></script>
 <title>Chris Lai Portfolio</title>
 </head>
 
-<body>
+<body onload="menuSlider.init('menu','slide')">
 <div id="top">
   <h1>Chris Lai</h1>
   <div id="nav">
-    <ul>
+    <ul id="menu">
       <li><a href="#" id="home">Home</a></li>
       <li><a href="#" id="education">Education</a></li>
       <li><a href="#" id="skill">Skill</a></li>
@@ -20,30 +21,30 @@
       <li><a href="#" id="upcoming">Upcoming</a></li>
       <li><a href="#" id="contact">Contact</a></li>
     </ul>
+    <div id="slide"></div>
   </div>
 </div>
 <div id="homeContent">
-  <h2>Home</h2>
-  <div id="homeContentElement"> Welcome to my online portfolio!</div> 
-  </div>
+  <div id="homeContentElement"> Welcome To My Online Portfolio</div>
+</div>
 <div id="educationContent">
   <div class="left">
     <h2>Education</h2>
-    <p>Bachelor of Science, Computer Science, expected graduation May 2016 <br>
+      Bachelor of Science, Computer Science, expected graduation May 2016 <br>
       Virginia Tech, Blacksburg, VA <br>
-      GPA:3.38/4.0</p>
+      GPA:3.38/4.0
   </div>
   <div class="right">
     <h2> Objective</h2>
     Wants to program anything! </div>
-  <div class="left" style="height:400px">
+  <div class="left" style="height:20%">
     <h2>Courses</h2>
     Software Design and Data Structure<br>
     Intro to Programming in C++<br>
     AP Computer Science (Java)<br>
-    Self-Taught Web Development(HTML, CSS, JavaScript)<br>
+    Self-Taught Web Development(HTML, CSS, JavaScript)
   </div>
-  <div class="right" style="height:400px">
+   <div class="right" style="height:20%">
     <h2>Projects</h2>
     <h3>Online Portfolio</h3>
     <ul>
@@ -53,7 +54,7 @@
     <h3>Maze Game</h3>
     <ul>
       <li> Solved the maze using stack structure</li>
-      <li> utilized the mode, view, and control structure</li>
+      <li> Utilized the mode, view, and control structure</li>
     </ul>
     <h3>Minesweepers Game</h3>
     <ul>
@@ -136,16 +137,17 @@
 <div id="upcomingContent">
   <h2>To be implemented</h2>
   <ul>
-    <li> Use image on skill page to show off skill</li>
-    <li> Use a slide for nav bar</li>
-    <li> Create a function on how text fade in base on position on nav bar</li>
-    <li>On contact page make it easier to e-mail</li>
-    <li>Photoshop a better home page and header</li>
-    <li>Format experience date to be bolder and clean</li>
+    <li>Icon on Skill Page</li>
+    <li>Refine Slider on Nav Bar</li>
+    <li>Function to fade left/right</li>
+    <li>Mailto function on contact section </li>
+    <li>Photoshop Image to replace h1</li>
+    <li>Format and Clean Dates</li>
+    <li>Slide Content for transition Left/Right </li>
+    <li>Fix glitchiness with lower resolution viewer</li>
     <li>Implement Nivo Slider</li>
     <li>Implement Canvas feature,video,audio (HTML5)</li>
     <li>Implement CS3 features</li>
-    <li></li>
   </ul>
 </div>
 <div id="contactContent">

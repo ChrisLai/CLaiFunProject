@@ -1,7 +1,9 @@
    $(document).ready(function(){
-      $('#home').click(function(e) {
 
-        $('#educationContent').fadeOut(); 
+	  $('#homeContent').fadeIn(2000);
+      $('#home').click(function(e) {
+		e.preventDefault();
+        $('#educationContent').hide(); 
 		$('#skillContent').hide();      
         $('#homeContent').fadeIn();
 		$('#experienceContent').hide();
@@ -65,4 +67,5 @@
 		$('#contactContent').fadeIn();    
         return false;  
       });
+
     }); 

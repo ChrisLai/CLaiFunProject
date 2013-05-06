@@ -1,5 +1,5 @@
 body {
-	background-color: #303030;
+	background-color: #282828 ;
 	font-family: verdana;
 }
 h1 {
@@ -8,29 +8,30 @@ h1 {
 	margin: 5px;
 	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
 	font-size: 40px;
-	font-weight:normal;
+	font-weight: normal;
 }
 h2 {
 	color: #0099FF;
 }
-.left{
-
+h3 {
+	font-size: 19px;
+	font-weight: normal;
+	color: white;
+}
+.left {
 	width: 50%;
 	height: 200px;
 	text-align: left;
-	float:left;
+	float: left;
 	margin: 0;
-
 }
-.right{
-
+.right {
 	width: 50%;
 	height: 200px;
 	text-align: right;
-	float:left;
+	float: left;
 	overflow: hidden;
 	margin: 0px;
-
 }
 #nav {
 	text-align: center;
@@ -47,33 +48,43 @@ h2 {
 }
 a {
 	font-size: .9em;
-	color: white;
+	color: #A0A0A0;
 	text-decoration: none;
 }
 #homeContent {
+	display: none;
 	margin-top: 20px;
-	color: #B8B8B8;
+	color: #0099FF;
 }
-#homeContentElement{
+#homeContentElement {
 	width: 100%;
 	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
-	font-size: 50px;
+	font-size: 60px;
 	text-align: center;
-	margin:10% 0 0;
+	margin: 10% 0 0;
+
 }
 #educationContent, #skillContent, #experienceContent, #experienceContent, #upcomingContent, #contactContent {
 	margin-top: 20px;
-	color: #B8B8B8;
+	color:#707070  ;
 	display: none;
 }
 #skillContent ul, #upcomingContent ul {
 	list-style-type: none;
 }
-#educationContent ul, #experienceContent ul{
+#educationContent ul, #experienceContent ul {
 	margin: 0;
-	padding:0;
+	padding: 0;
 	list-style-type: none;
 }
-<h3>{
-	font-size: 12px;
+
+.lavaLamp {
+    position: relative;
+    height: 29px; width: 421px;
+    background: url("../image/bg.gif") no-repeat top;
+    padding: 15px; margin: 10px 0;
+    overflow: hidden;
 }
+/* Not my CSS code Style Below*/	
+/* Use value="1" to be active */
+#slide {position:absolute; height:4px; background:#0099FF; z-index:10} 
