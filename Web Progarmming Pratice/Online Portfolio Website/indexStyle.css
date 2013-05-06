@@ -54,6 +54,13 @@ a {
 	margin-top: 20px;
 	color: #B8B8B8;
 }
+#homeContentElement{
+	width: 100%;
+	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	font-size: 50px;
+	text-align: center;
+	margin:10% 0 0;
+}
 #educationContent, #skillContent, #experienceContent, #experienceContent, #upcomingContent, #contactContent {
 	margin-top: 20px;
 	color: #B8B8B8;
